@@ -42,6 +42,7 @@ int lcs(string &a, string &b, int i, int j)
 
     return dp[i][j];
 }
+
 int main()
 {
 
@@ -52,7 +53,7 @@ int main()
     return 0;
 } */
 
-// Using dp
+// Using dp TABULATION BOTTOM UP
 #include <bits/stdc++.h>
 using namespace std;
 
